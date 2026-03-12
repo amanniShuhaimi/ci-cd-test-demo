@@ -6,7 +6,8 @@ pipeline {
    }
 
    environment {
-       DEPLOY_PATH = 'D:\\tomcat10\\webapps'
+       // Corrected path to your actual Tomcat installation
+       DEPLOY_PATH = 'C:\\apache-tomcat-10.1.52\\webapps'
        APP_NAME = 'ci-cd-test-demo'
        WAR_FILE = 'ci-cd-test-demo.war'
    }
